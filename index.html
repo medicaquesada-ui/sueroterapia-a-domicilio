@@ -9,13 +9,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23181b1a'/%3E%3Cpath d='M32 13v38M13 32h38' stroke='%23d8b978' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230a3e6a'/%3E%3Cpath d='M32 10C24 22 17 30 17 39a15 15 0 0030 0c0-9-7-17-15-29z' fill='%23e2b860'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="#inicio" aria-label="Ir al inicio">
-      <span class="brand-mark" aria-hidden="true"><i></i></span>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M16 4C12.2 10.2 7.7 14.7 7.7 20a8.3 8.3 0 0 0 16.6 0C24.3 14.7 19.8 10.2 16 4Z"/><path class="drop-shine" d="M12.1 19.2c.2 2.3 1.7 3.8 3.9 4.3"/></svg>
+      </span>
       <span><strong>Dra. Quesada</strong><small>Medicina clínica · MP 30779/8</small></span>
     </a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
@@ -33,40 +35,41 @@
       <img class="hero-image" src="hero-sueroterapia-premium.png" alt="Paciente adulta tranquila y sonriente durante una infusión intravenosa en su domicilio, acompañada por una enfermera">
       <div class="hero-overlay"></div>
       <div class="wrap hero-content">
-        <p class="eyebrow eyebrow-light">Bienestar médico personalizado · A domicilio</p>
-        <h1>Sueroterapia intravenosa <em>premium</em></h1>
-        <p class="hero-lead">Protocolos indicados por la Dra. Quesada y administrados en la privacidad de tu hogar, con evaluación médica, estudios previos y enfermería profesional.</p>
+        <p class="eyebrow eyebrow-light">Sueroterapia intravenosa premium a domicilio</p>
+        <h1>Recuperá tu vitalidad. <em>Sin salir de tu casa.</em></h1>
+        <p class="hero-lead">Recibí un protocolo personalizado en la comodidad de tu hogar, aplicado y supervisado por enfermería profesional. La Dra. Quesada evalúa tu caso, indica los estudios y diseña cada fórmula.</p>
         <div class="hero-actions">
-          <a class="button button-gold" href="https://wa.me/5493513123472?text=Hola%20Dra.%20Quesada%2C%20quiero%20solicitar%20una%20evaluaci%C3%B3n%20por%20sueroterapia%20a%20domicilio." target="_blank" rel="noopener">Solicitar una evaluación</a>
-          <a class="text-link" href="#programas">Conocer los programas <span aria-hidden="true">↓</span></a>
+          <a class="button button-gold" href="https://wa.me/5493513123472?text=Hola%20Dra.%20Quesada%2C%20quiero%20solicitar%20una%20evaluaci%C3%B3n%20por%20sueroterapia%20a%20domicilio." target="_blank" rel="noopener">Quiero conocer mi protocolo</a>
+          <a class="text-link" href="#programas">Ver terapias y beneficios <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="hero-signature">
-          <span>Consulta con la Dra.</span>
-          <span>Estudios previos</span>
-          <span>Aplicación a domicilio</span>
-        </div>
+        <ul class="hero-signature">
+          <li>Consulta médica virtual</li>
+          <li>Kit enviado a tu domicilio</li>
+          <li>Aplicación con enfermero</li>
+        </ul>
       </div>
     </section>
 
     <section class="trust-strip" aria-label="Características principales">
       <div class="wrap trust-grid">
-        <article><span class="trust-number">01</span><p><strong>Indicación individual</strong>La fórmula se define para cada paciente.</p></article>
-        <article><span class="trust-number">02</span><p><strong>Kit completo</strong>Preparado según la prescripción médica.</p></article>
-        <article><span class="trust-number">03</span><p><strong>2 a 3 horas</strong>Infusión lenta, según fórmula y dosis.</p></article>
-        <article><span class="trust-number">04</span><p><strong>Atención particular</strong>Servicio privado, sin obras sociales.</p></article>
+        <article><span class="trust-check">✓</span><p><strong>Indicación individual</strong>La fórmula se define para cada paciente.</p></article>
+        <article><span class="trust-check">✓</span><p><strong>Kit completo</strong>Se prepara y envía a tu domicilio.</p></article>
+        <article><span class="trust-check">✓</span><p><strong>En tu casa</strong>Con enfermero profesional habilitado.</p></article>
+        <article><span class="trust-check">✓</span><p><strong>Comodidad y privacidad</strong>Todo cuidadosamente coordinado.</p></article>
+        <article><span class="trust-check">✓</span><p><strong>2 a 3 horas</strong>Infusión lenta, según fórmula y dosis.</p></article>
       </div>
     </section>
 
     <section class="section philosophy">
       <div class="wrap philosophy-grid">
         <div>
-          <p class="eyebrow">Medicina, criterio y privacidad</p>
-          <h2>No es un menú de sueros.<br><em>Es un programa médico.</em></h2>
+          <p class="eyebrow">Tu bienestar merece algo más</p>
+          <h2>Un protocolo pensado <em>para vos.</em></h2>
         </div>
         <div class="body-copy">
-          <p>Cada experiencia comienza con una consulta con la Dra. Quesada. Allí se revisan tus objetivos, antecedentes, medicación habitual y estudios para determinar si existe una indicación y qué protocolo puede evaluarse.</p>
-          <p>La fórmula, la cantidad de sesiones y el ritmo de infusión no son estándar. Se definen de manera individual y pueden modificarse según la respuesta clínica.</p>
-          <aside class="quote-card">Una propuesta para quienes valoran el acompañamiento médico, la comodidad de su casa y una atención cuidadosamente coordinada.</aside>
+          <p>Cuando el cansancio, la baja vitalidad o una recuperación más lenta empiezan a sentirse en la vida cotidiana, una evaluación médica puede ayudarte a conocer qué necesita realmente tu organismo.</p>
+          <p>La Dra. Quesada revisa tus antecedentes y estudios para diseñar una fórmula, una cantidad de sesiones y un ritmo de infusión adecuados a tu caso.</p>
+          <aside class="quote-card">Invertí en tu bienestar con una atención médica privada, personalizada y organizada para que puedas recibirla cómodamente en tu casa.</aside>
         </div>
       </div>
     </section>
@@ -75,70 +78,96 @@
       <div class="wrap">
         <div class="section-heading">
           <div>
-            <p class="eyebrow eyebrow-light">Programas que pueden evaluarse</p>
-            <h2>Una indicación para cada objetivo</h2>
+            <p class="eyebrow eyebrow-light">Terapias y beneficios posibles</p>
+            <h2>¿Para qué sirve cada terapia?</h2>
           </div>
-          <p>La elección entre estos protocolos depende de la consulta, los estudios y el criterio de la Dra. No todos son adecuados para todas las personas.</p>
+          <p>Conocé qué objetivos puede acompañar cada protocolo. La indicación final depende de la consulta, los estudios y el criterio médico.</p>
         </div>
 
         <div class="program-grid">
           <article class="program-card featured">
-            <div class="card-top"><span>01</span><small>Programa destacado</small></div>
+            <div class="card-top"><span class="therapy-dot"></span><small>Programa destacado</small></div>
             <h3>NAD<sup>+</sup></h3>
             <p class="pronunciation">Se lee “NAD más”</p>
-            <p>Programa intravenoso personalizado que puede ser considerado dentro de un abordaje médico de bienestar y vitalidad.</p>
+            <p class="card-intro">Pensado para personas que buscan recuperar impulso y acompañar su bienestar bajo control médico.</p>
+            <ul class="program-benefits">
+              <li>Apoyo a la energía y la vitalidad.</li>
+              <li>Acompañamiento de la recuperación.</li>
+              <li>Soporte del metabolismo celular.</li>
+            </ul>
             <div class="program-meta"><strong>3 a 6</strong><span>sesiones, según evaluación y respuesta</span></div>
           </article>
 
           <article class="program-card">
-            <div class="card-top"><span>02</span><small>Indicación específica</small></div>
+            <div class="card-top"><span class="therapy-dot coral"></span><small>Indicación específica</small></div>
             <h3>Quelación</h3>
-            <p>Protocolo intravenoso que solo se considera cuando la evaluación médica, los antecedentes y los estudios justifican una indicación concreta.</p>
+            <p class="card-intro">Protocolo dirigido a remover determinados metales del organismo cuando existe una indicación concreta.</p>
+            <ul class="program-benefits">
+              <li>Disminución de la carga de metales específicos.</li>
+              <li>Protocolo definido mediante estudios previos.</li>
+              <li>Seguimiento médico durante el programa.</li>
+            </ul>
             <div class="program-meta"><strong>10</strong><span>sesiones en el programa indicado</span></div>
           </article>
 
           <article class="program-card">
-            <div class="card-top"><span>03</span><small>Protocolo individual</small></div>
-            <h3>Vitamina C IV</h3>
-            <p>Puede indicarse como fórmula intravenosa individual. La dosis, los estudios necesarios y la frecuencia se determinan en consulta.</p>
+            <div class="card-top"><span class="therapy-dot aqua"></span><small>Protocolo individual</small></div>
+            <h3>Vitamina C <span class="title-break">intravenosa</span></h3>
+            <p class="card-intro">Una alternativa individual que puede incorporarse a un plan médico de bienestar.</p>
+            <ul class="program-benefits">
+              <li>Apoyo antioxidante.</li>
+              <li>Acompañamiento nutricional personalizado.</li>
+              <li>Dosis y frecuencia definidas para cada paciente.</li>
+            </ul>
             <div class="program-meta text-meta"><strong>A medida</strong><span>dosis y frecuencia definidas por la Dra.</span></div>
           </article>
 
           <article class="program-card">
-            <div class="card-top"><span>04</span><small>Fórmula personalizada</small></div>
+            <div class="card-top"><span class="therapy-dot sky"></span><small>Fórmula personalizada</small></div>
             <h3>Cóctel de vitaminas</h3>
-            <p>Combinación intravenosa diseñada según la historia clínica, los objetivos y los resultados de los estudios previos.</p>
+            <p class="card-intro">Una combinación diseñada según tu historia clínica, tus objetivos y los resultados de tus estudios.</p>
+            <ul class="program-benefits">
+              <li>Aporte personalizado de vitaminas y nutrientes.</li>
+              <li>Orientado a vitalidad y bienestar general.</li>
+              <li>Componentes definidos según cada necesidad.</li>
+            </ul>
             <div class="program-meta text-meta"><strong>Personalizado</strong><span>componentes definidos para cada paciente</span></div>
           </article>
         </div>
 
-        <article class="injectable-card">
-          <div>
-            <p class="eyebrow">Programa complementario</p>
-            <h3>Programa inyectable “antiage”</h3>
-            <p>Un protocolo diferente de la sueroterapia, compuesto por cuatro aplicaciones en un mes y sujeto a indicación médica.</p>
+        <article class="need-card">
+          <div class="need-copy">
+            <p class="eyebrow">Escuchá las señales de tu cuerpo</p>
+            <h3>¿Sentís que necesitás recuperar energía y bienestar?</h3>
+            <p>Una consulta puede ayudarte a descubrir si alguno de estos protocolos es adecuado para vos.</p>
           </div>
-          <div class="injectable-number"><strong>4</strong><span>aplicaciones<br>en 1 mes</span></div>
-          <p class="small-note">“Antiage” es el nombre comercial del programa; no se trata de una vacuna inmunizante. Su composición e indicación deben confirmarse en la consulta.</p>
+          <ul class="need-list">
+            <li>Cansancio o falta de vitalidad</li>
+            <li>Recuperación más lenta</li>
+            <li>Estrés físico y mental</li>
+            <li>Interés en acompañar un envejecimiento saludable</li>
+            <li>Preferencia por una atención cómoda y privada</li>
+          </ul>
+          <a class="button button-blue" href="https://wa.me/5493513123472?text=Hola%20Dra.%20Quesada%2C%20quiero%20saber%20qu%C3%A9%20protocolo%20de%20sueroterapia%20puede%20ser%20adecuado%20para%20m%C3%AD." target="_blank" rel="noopener">Quiero saber qué protocolo es para mí</a>
         </article>
       </div>
     </section>
 
     <section class="section experience" id="experiencia">
-      <div class="wrap experience-grid">
+      <div class="wrap home-experience">
         <div class="experience-copy">
-          <p class="eyebrow">Atención en la comodidad de tu hogar</p>
-          <h2>Una experiencia privada, con tiempos cuidados</h2>
-          <p>La aplicación se realiza exclusivamente a domicilio. El suero debe administrarse lentamente y puede requerir entre dos y tres horas, de acuerdo con la fórmula y la cantidad indicada.</p>
-          <div class="time-pill"><strong>2–3 h</strong><span>Duración estimada de cada infusión</span></div>
+          <p class="eyebrow">Simple, cómodo y personalizado</p>
+          <h2>Todo se organiza para que lo recibas en tu casa</h2>
+          <p>Desde la consulta hasta la aplicación, coordinamos cada etapa para que puedas acceder al programa con privacidad, comodidad y acompañamiento profesional.</p>
+          <a class="button button-blue" href="https://wa.me/5493513123472?text=Hola%20Dra.%20Quesada%2C%20quiero%20coordinar%20una%20consulta%20virtual%20por%20sueroterapia%20a%20domicilio." target="_blank" rel="noopener">Quiero coordinar mi consulta virtual</a>
         </div>
-        <ol class="steps">
-          <li><span>1</span><div><h3>Consulta médica</h3><p>La Dra. conoce tu historia clínica, escucha tus objetivos y evalúa si corresponde avanzar.</p></div></li>
-          <li><span>2</span><div><h3>Estudios previos</h3><p>Se solicitan y revisan los análisis necesarios para el protocolo considerado.</p></div></li>
-          <li><span>3</span><div><h3>Indicación y kit</h3><p>La Dra. define fórmula, dosis, ritmo de goteo y sesiones. Se coordina el kit completo.</p></div></li>
-          <li><span>4</span><div><h3>Aplicación a domicilio</h3><p>Un profesional de enfermería habilitado realiza y supervisa la infusión en tu hogar.</p></div></li>
-          <li><span>5</span><div><h3>Seguimiento</h3><p>La evolución y la continuidad del programa se revisan con criterio médico.</p></div></li>
-        </ol>
+        <ul class="home-benefits">
+          <li><span>✓</span><div><strong>Consulta médica virtual</strong><p>Conversá con la Dra. Quesada desde donde estés.</p></div></li>
+          <li><span>✓</span><div><strong>Evaluación y estudios</strong><p>Se revisan antecedentes y análisis antes de indicar.</p></div></li>
+          <li><span>✓</span><div><strong>Envío del kit completo</strong><p>El protocolo indicado se envía al domicilio coordinado.</p></div></li>
+          <li><span>✓</span><div><strong>Aplicación en tu casa</strong><p>Un enfermero habilitado realiza y supervisa la infusión.</p></div></li>
+          <li><span>✓</span><div><strong>Seguimiento médico</strong><p>La continuidad se evalúa según tu respuesta.</p></div></li>
+        </ul>
       </div>
     </section>
 
@@ -196,13 +225,13 @@
       <div class="wrap consultation-grid">
         <div>
           <p class="eyebrow eyebrow-light">Primer paso · Consulta con la Dra.</p>
-          <h2>Tu programa empieza mucho antes del suero.</h2>
-          <p>Solicitá una evaluación para revisar tus antecedentes, definir los estudios necesarios y conocer una propuesta personalizada.</p>
+          <h2>Elegí una atención médica que llega hasta tu casa.</h2>
+          <p>Solicitá tu consulta virtual, conocé qué protocolo puede ser adecuado para vos y recibí una propuesta personalizada.</p>
         </div>
         <div class="consultation-actions">
           <a class="button button-gold" href="https://wa.me/5493513123472?text=Hola%20Dra.%20Quesada%2C%20quiero%20solicitar%20una%20evaluaci%C3%B3n%20por%20sueroterapia%20a%20domicilio." target="_blank" rel="noopener">Consultar por WhatsApp</a>
           <a class="button button-outline-light" href="https://draquesada.com.ar/" target="_blank" rel="noopener">Conocé a la Dra., el consultorio y el mapa</a>
-          <span>Atención exclusivamente particular · Córdoba Capital y zona a coordinar</span>
+          <span>Atención exclusivamente particular · Consulta virtual, envío del kit y enfermería sujetos a coordinación</span>
         </div>
       </div>
     </section>
